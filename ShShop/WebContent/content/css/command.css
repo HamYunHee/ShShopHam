@@ -1,0 +1,91 @@
+/* 초기화 */
+ul{margin: 0; padding: 0}
+li{list-style: none}
+a{text-decoration: none}
+img{border: 0}
+body{width: 100%; margin: 0;padding: 0;background-color: aquamarine}
+.wrap{position: relative; width: 1000px;height:100%;margin: 0 auto;background-color: bisque}
+
+/* 부팅 페이지*/
+#bootlogo{width: 800px; margin: 0 auto;padding-top:200px;}
+#bootlogo img{width: 100%;display: block;}
+#bootsearch{width:800px; margin: 0 auto; margin-top:30px; font-size: 15px}
+#bootsearch select {float: left; width: 120px;height:50px;line-height: 50px; text-indent:1em}
+#bootsearch input[type="text"]{float:left;width:575px; height:44px;line-height:44px;text-indent:1em;font-size:15px;margin-left: -1px}
+#bootsearch input[type="submit"]{width: 100px;height: 50px}
+#bootlink{width: 800px;margin:30px auto}
+#bootlink input[type="button"]{height: 50px;font-size: 15px}
+.bootbtn{margin-left:480px;}
+
+/* 헤더 영역*/
+.headwrap{position: relative; width: 1000px;margin: 0 auto;background-color: bisque}
+#header{position: relative; width: 100%; height: 150px;margin: 0; background: #0dd}
+/* 헤더 > 전체 카테고리 */
+#category{float: left;margin-top: 100px;margin-left: 30px}
+#category a{display: block; color:#000}
+#category span{display: block; width:150px; height: 30px; line-height: 30px;text-align: center; background-color: #fff;border: 1px solid #ccc}
+.allcategory{width: 150px;margin: 0;padding: 0; background: pink}
+.allcategory li{width: 100%; height: 30px; line-height: 30px; border: 1px solid #ccc;background: #ddd}
+.allcategory ul{margin-left: 150px;margin-top: -31px}
+#category ul li{display: none}
+#category:hover > .allcategory > li{display: block}
+#category .allcategory > li:hover li{display: block}
+
+/* 헤더 > 검색바 */
+#search{float: left;width:500px; margin: 0 auto; margin-top:100px; margin-left: 50px; font-size: 15px}
+#search select {float: left; width: 80px;height:32px;line-height: 30px; text-indent:1em}
+#search input[type="text"]{float:left;width:320px; height:26px;line-height:26px;text-indent:1em;font-size:15px;margin-left: -1px}
+#search input[type="submit"]{width: 80px;height: 32px;margin-left: -1px}
+
+/* 헤더 > 상품등록 버튼 */
+#link{float: left;margin-top: 100px;margin-left: 30px}
+#link input[type="button"]{width: 100px; height: 32px}
+
+/* 헤더 > gnb 영역 */
+#gnb{position: absolute;top: 15px; right: 15px;margin: 0}
+#gnb li{float: left}
+#gnb a{display: block; padding:0 15px;color: #000;font-weight: bold}
+
+/* 푸터 영역 */
+.footwrap{width: 1000px; margin: 0 auto; height: 150px;text-align: center; font-size: 14px;color: dimgray; background-color: beige}
+.footwrap li{float: left}
+.footwrap ul{clear: both; }
+.footwrap p{clear: left}
+/* 푸터 컨텐츠*/
+.footcontent{display: inline-block;margin: 0;  padding: 0;  margin-top:10px; margin-bottom: 10px}
+.footcontent li{margin: 0 10px;font-weight: bold}
+.footcontent a{color: dimgray}
+/* 푸터 컴퍼니 영역*/
+.footcompany{display: inline-block;margin: 0;  padding: 0; margin-top:5px}
+.footcompany li{margin: 0 5px}
+.footwrap span{color: brown; font-weight: bold}
+
+/* 메인 영역*/
+/* 메인 상단 베너 영역*/
+#main_body{position: relative; width: 100%; margin-top: 150px}
+#banner{position: relative; width: 100%;height: 200px}
+#banner img{width: 100%;height: 100%}
+.control{position: absolute;top: 45%;left: 0; width: 100%}
+.control #prevBtn{float: left; width: 23px; height: 38px;margin-left: 15px}
+.control #nextBtn{float: right; width: 23px; height: 38px;margin-right: 15px}
+
+/* 메인 좌측 상품 영역*/
+#main_listarea{position: relative; float: left; width: 80%; padding: 5px 15px; box-sizing: border-box}
+#main_listarea li{float: left}
+#main_listarea ul,p{clear: both;padding: 0;margin: 0}
+.main_content{position: relative; width: 100%; height: 235px; margin: 40px 0;background-color: fuchsia}
+.main_content p{font-size: 23px;font-weight: bold;margin-bottom: 15px;margin-left: 15px}
+.main_content .item_area{width: 95%; height: 170px; margin-left:2.5%; padding: 20px 20px; box-sizing: border-box; background-color:  darkseagreen}
+.item_area ul{width: 100%;height: 130px;background-color: burlywood}
+.item_area li {width: 110px; height: 110px; margin-left: 20px;margin-top: 10px;}
+
+/* 메인 우측 온,오프 영역*/
+#main_rightbox{position: relative; float: right; width: 20%; height: 510px; padding: 5px 10px; box-sizing: border-box; margin-top: 45px; text-align: center; background-color: beige}
+#on_off_btn{position: absolute;width: 30px; height: 50px; text-align: center; top: 225px;margin-left: -10px;background-color: white}
+#on_off_btn img{margin-top: 5px}
+#main_rightbox ul{margin-top: 20px}
+#main_rightbox li{width: 110px; height: 140px;margin-top: 10px; background-color: forestgreen}
+
+.footer_area{background-color: black;width: 100%; height: 150px;clear: both}
+
+

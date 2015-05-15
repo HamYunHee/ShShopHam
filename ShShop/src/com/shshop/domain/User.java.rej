@@ -1,0 +1,9 @@
+diff a/src/com/shshop/domain/User.java b/src/com/shshop/domain/User.java	(rejected hunks)
+@@ -158,6 +158,7 @@
+ 		this.bankNum = bankNum;
+ 	}
+ 
++	public int getUserId() {
+ 		return userId;
+ 	}
+ 
